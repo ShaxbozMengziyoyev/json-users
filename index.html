@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <h2 class="text-center bg-info mb-5">Users</h2>
+       <ul class="js-user-list"></ul>
+  </div>
+
+  <template id="user-templete-js">
+    <div class="user-item new__item">
+      <h3 class="full-name"></h3>
+      <div>
+        UserName: 
+        <span class="user-name"></span>
+      </div>
+      <div>
+        Email: 
+        <a class="email-address text-decoration-none"></a>
+      </div>
+      <p>
+        tel: 
+        <a class="phone-number text-decoration-none"></a>
+      </p>
+      <p>
+        website:
+        <a class="user-website"></a>
+      </p>
+      <p class="user-company"></p>
+      <address class="user-address"></address>
+    </div>
+  </template>
+
+  <script src="js.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

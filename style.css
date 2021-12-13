@@ -1,0 +1,16 @@
+.js-user-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.user-item {
+  border: 5px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.new__item {
+  width: 24%;
+}
